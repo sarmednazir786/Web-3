@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscribed</title>
+    <style>
+        body {
+            background-color: #000000; /* Set the background color of the page */
+            margin: 0; /* Remove default margin for the body */
+            display: flex;
+            align-items: center; /* Vertically center content */
+            justify-content: center; /* Horizontally center content */
+            height: 100vh; /* Set the height of the body to the viewport height */
+        }
+
+        .subscribed-text {
+            font-size: 24px; /* Set the font size */
+            color: #ffff00; /* Set text color to yellow */
+        }
+    </style>
+</head>
+<body>
+    <div class="subscribed-text">Subscribed</div>
+    {{ sites | safe}}
+</body>
+</html>
+
